@@ -12,7 +12,7 @@
         <div v-for="link in links">
           {{ link }}
         </div>
-        <div class="flex flex-col items-end gap-2">
+        <div v-if="posts.length" class="flex flex-col items-end gap-2">
           <div class="font-semibold">Recent</div>
           <div class="flex flex-col items-end gap-2 pr-4 border-r-4 border-red">
             <NuxtLink
