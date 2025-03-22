@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Onest", "sans-serif";
+    --font-serif: "Source Serif", "serif";
+    --color-black: var(--color-neutral-800);
+    --color-red: #ED2939;
+}
